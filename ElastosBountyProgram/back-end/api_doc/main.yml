@@ -58,3 +58,6 @@ paths:
 
   /team/create:
     $ref: './path/team/create.yml'
+
+  /task/{taskId}:
+    $ref: './path/task/get.yml'
